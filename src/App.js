@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Categories from "./components/Categories";
 import Featured from "./components/Featured";
 import Special from "./components/Special";
+import Consoles from "./components/Consoles";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       {/* Special Offers */}
       <Special />
       {/* Consoles */}
+      <Consoles />
       {/* Browse */}
       {/* Footer */}
     </div>

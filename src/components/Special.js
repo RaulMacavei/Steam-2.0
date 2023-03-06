@@ -15,9 +15,9 @@ const Special = () => {
           </p>
           <div className="flex gap-4">
             <div className="flex gap-4">
-              <div className="w-[306px] h-[350px]">
+              <div className="w-[306px] h-[350px] hover:cursor-pointer">
                 <img src={StarWars} alt="" className="" />
-                <div className="absolute -mt-[78px] h-[113px] w-[306px] bg-gradient-to-br from-[#1a5a7e] to-[#237fa6]">
+                <div className="absolute -mt-[78px] h-[113px] w-[306px] bg-gradient-to-br from-[#1a5a7e] to-[#237fa6] ">
                   <div className="flex flex-col py-[4px] pl-6 ">
                     <p className="text-white pt-1">WEEKEND OFFER</p>
                     <p className="text-white pt-1 text-[11px]">
@@ -37,7 +37,7 @@ const Special = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-[306px] h-[350px] overflow-hidden">
+              <div className="w-[306px] h-[350px] hover:cursor-pointer">
                 <img src={F1} alt="" className="" />
                 <div className="absolute -mt-[78px] h-[113px] w-[306px] bg-gradient-to-br from-[#1a5a7e] to-[#237fa6]">
                   <div className="flex flex-col py-[4px] pl-6 ">
@@ -61,7 +61,7 @@ const Special = () => {
               </div>
             </div>
             <div className="flex gap-14 flex-col">
-              <div className="w-[306px] h-[143px] overflow-hidden">
+              <div className="w-[306px] h-[143px] hover:cursor-pointer">
                 <img src={Red} alt="" className="" />
                 <div className="h-[43px] w-[306px] bg-gradient-to-br from-[#1a5a7e] to-[#237fa6] absolute">
                   <div className="flex justify-end items-center py-[4px] px-1">
@@ -77,7 +77,7 @@ const Special = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-[306px] h-[143px] overflow-hidden">
+              <div className="w-[306px] h-[143px] hover:cursor-pointer">
                 <img src={FarCry} alt="" className="" />
                 <div className="h-[43px] w-[306px] bg-gradient-to-br from-[#1a5a7e] to-[#237fa6] absolute">
                   <div className="flex justify-end items-center py-[4px] px-1">
