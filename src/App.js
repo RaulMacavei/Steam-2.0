@@ -4,6 +4,7 @@ import Featured from "./components/Featured";
 import Special from "./components/Special";
 import Consoles from "./components/Consoles";
 import Browse from "./components/Browse";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       {/* Browse */}
       <Browse />
       {/* Footer */}
+      <Footer />
     </div>
   );
 }
