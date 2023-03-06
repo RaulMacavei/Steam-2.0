@@ -1,10 +1,11 @@
 import Navbar from "./components/Navbar";
 import Categories from "./components/Categories";
 import Featured from "./components/Featured";
+import Special from "./components/Special";
 
 function App() {
   return (
-    <div className="bg-gradient-to-br from-[#004156] to-[#022748] h-screen">
+    <div className="bg-gradient-to-br from-[#004156] to-[#022748]">
       {/* Navbar */}
       <Navbar />
       {/* Categories */}
@@ -12,6 +13,8 @@ function App() {
       {/* Featured */}
       <Featured />
       {/* Special Offers */}
+      <Special />
+      {/* Consoles */}
       {/* Browse */}
       {/* Footer */}
     </div>

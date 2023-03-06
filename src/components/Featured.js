@@ -57,7 +57,7 @@ const Featured = ({ cover, title, photo1, photo2, photo3, photo4, price }) => {
                   </p>
                 </div>
                 <div className="flex justify-between pt-10">
-                  <p className="text-white text-[11px]">59,99€</p>
+                  <p className="text-white text-[11px]">59,99$</p>
                   <FaWindows className="text-[#b5b8bb]" />
                 </div>
               </div>

@@ -18,21 +18,31 @@ const Covers = () => {
       photo4: forzaphoto4,
       price: "59,99€",
     },
+    {
+      cover: Forza,
+      title: "Forza Horizon 5",
+      photo1: forzaphoto1,
+      photo2: forzaphoto2,
+      photo3: forzaphoto3,
+      photo4: forzaphoto4,
+      price: "59,99€",
+    },
   ];
   return (
-    <div className="">
-      {covers.map((featured) => (
-        <Featured
-          cover={featured.cover}
-          title={featured.title}
-          photo1={featured.photo1}
-          photo2={featured.photo2}
-          
-          photo3={featured.photo3}
-          photo4={featured.photo4}
-          price={featured.price}
-        />
-      ))}
+    <div className="pt-1">
+      <div className="">
+        {covers.map((featured) => (
+          <Featured
+            cover={featured.cover}
+            title={featured.title}
+            photo1={featured.photo1}
+            photo2={featured.photo2}
+            photo3={featured.photo3}
+            photo4={featured.photo4}
+            price={featured.price}
+          />
+        ))}
+      </div>
     </div>
   );
 };
