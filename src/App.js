@@ -3,6 +3,7 @@ import Categories from "./components/Categories";
 import Featured from "./components/Featured";
 import Special from "./components/Special";
 import Consoles from "./components/Consoles";
+import Browse from "./components/Browse";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       {/* Consoles */}
       <Consoles />
       {/* Browse */}
+      <Browse />
       {/* Footer */}
     </div>
   );

@@ -12,7 +12,7 @@ const Featured = ({ cover, title, photo1, photo2, photo3, photo4, price }) => {
     <div className="flex justify-center px-[2%] py-[20px]">
       <div className="relative w-[940px] hover:cursor-pointer">
         {/* Title */}
-        <p className="text-white pb-[2px] tracking-[0.03rem] text-[14px]">
+        <p className="text-white pb-3 tracking-[0.03rem] text-[14px]">
           FEATURED & RECOMENDED
         </p>
         {/* Featured */}

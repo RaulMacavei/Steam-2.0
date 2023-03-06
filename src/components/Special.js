@@ -10,7 +10,7 @@ const Special = () => {
     <div>
       <div className="flex justify-center py-8">
         <div className="relative w-[940px]">
-          <p className="text-white pb-[2px] tracking-[0.03rem] text-[14px]">
+          <p className="text-white pb-3 tracking-[0.03rem] text-[14px]">
             SPECIAL OFFERS
           </p>
           <div className="flex gap-4">
