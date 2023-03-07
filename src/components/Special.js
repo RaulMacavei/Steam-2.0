@@ -1,9 +1,9 @@
 import React from "react";
 
-import FarCry from "../assets/farcry.jpg";
-import StarWars from "../assets/starwars.jpg";
-import F1 from "../assets/f22.jpg";
-import Red from "../assets/reddead.jpg";
+import FarCry from "../assets/special/farcry.jpg";
+import StarWars from "../assets/special/starwars.jpg";
+import F1 from "../assets/special/f22.jpg";
+import Red from "../assets/special/reddead.jpg";
 
 const Special = () => {
   return (
@@ -13,8 +13,8 @@ const Special = () => {
           <p className="text-white pb-3 tracking-[0.03rem] text-[14px]">
             SPECIAL OFFERS
           </p>
-          <div className="flex gap-4">
-            <div className="flex gap-4">
+          <div className="flex gap-3">
+            <div className="flex gap-3">
               <div className="w-[306px] h-[350px] hover:cursor-pointer">
                 <img src={StarWars} alt="" className="" />
                 <div className="absolute -mt-[78px] h-[113px] w-[306px] bg-gradient-to-br from-[#1a5a7e] to-[#237fa6] ">

@@ -6,7 +6,7 @@ import console2 from "../assets/valveindex.jpg";
 const Consoles = () => {
   return (
     <div>
-      <div className="flex justify-center pb-16 mt-16 ml-2 gap-6">
+      <div className="flex justify-center pb-16 mt-16 ml-2 gap-5">
         <img
           src={console1}
           alt=""

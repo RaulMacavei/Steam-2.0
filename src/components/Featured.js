@@ -1,16 +1,16 @@
 import React from "react";
 
 import { FaWindows } from "react-icons/fa";
-import cover8 from "../assets/forzacover.jpg";
-import forzaphoto1 from "../assets/forzaphoto1.jpg";
-import forzaphoto2 from "../assets/forzaphoto2.jpg";
-import forzaphoto3 from "../assets/forzaphoto3.jpg";
-import forzaphoto4 from "../assets/forzaphoto4.jpg";
+import cover8 from "../assets/featured/forzacover.jpg";
+import forzaphoto1 from "../assets/featured/forzaphoto1.jpg";
+import forzaphoto2 from "../assets/featured/forzaphoto2.jpg";
+import forzaphoto3 from "../assets/featured/forzaphoto3.jpg";
+import forzaphoto4 from "../assets/featured/forzaphoto4.jpg";
 
-const Featured = ({ cover, title, photo1, photo2, photo3, photo4, price }) => {
+const Featured = () => {
   return (
     <div className="flex justify-center px-[2%] py-[20px]">
-      <div className="relative w-[940px] hover:cursor-pointer">
+      <div className="relative w-[980px] hover:cursor-pointer">
         {/* Title */}
         <p className="text-white pb-3 tracking-[0.03rem] text-[14px]">
           FEATURED & RECOMENDED

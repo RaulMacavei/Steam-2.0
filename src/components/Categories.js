@@ -6,7 +6,7 @@ const Categories = () => {
   return (
     <div className="hidden lg:flex justify-center pt-8 pb-4">
       <div className="flex justify-center items-center bg-gradient-to-r from-[#3b6490] to-[#1a377c]">
-        <div className="flex gap-8 pr-[86px] className= hover:cursor-pointer text-white items-center justify-center ">
+        <div className="flex gap-8 pr-[84px] className= hover:cursor-pointer text-white items-center justify-center ">
           <ul className="flex text-[12px]">
             <li className="py-2 px-4 hover:bg-gradient-to-r from-[#5085bf] to-[#385f8e]">
               <p>Your Store</p>
@@ -28,7 +28,7 @@ const Categories = () => {
             </li>
           </ul>
         </div>
-        <div className="flex items-center justify-end px-1 pl-[86px]">
+        <div className="flex items-center justify-end px-1 pl-[84px]">
           <input
             type="search"
             placeholder="search"

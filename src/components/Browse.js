@@ -1,9 +1,9 @@
 import React from "react";
 
-import Action from "../assets/action.png";
-import Racing from "../assets/racing.png";
-import Casual from "../assets/casual.png";
-import Fights from "../assets/fight.png";
+import Action from "../assets/browse/action.png";
+import Racing from "../assets/browse/racing.png";
+import Casual from "../assets/browse/casual.png";
+import Fights from "../assets/browse/fight.png";
 
 const Browse = () => {
   return (
